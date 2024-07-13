@@ -11,7 +11,7 @@ function Header() {
             <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <a href="/graph">Track Progress</a>
+            <Link to="/graph">Track Progress</Link>
           </li>
         </ul>
       </nav>

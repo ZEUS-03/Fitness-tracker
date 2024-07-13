@@ -22,7 +22,6 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/graph" element={<WorkoutGraph />} />
-              <Route path="/new" element={<NewExercise />} />
             </Routes>
           </BrowserRouter>
         </PersistGate>
